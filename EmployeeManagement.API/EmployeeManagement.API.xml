@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeManagement.API</name>
+    </assembly>
+    <members>
+        <member name="T:EmployeeManagement.API.Controllers.EmployeeController">
+            <summary>
+            Employee crud operation
+            </summary>
+        </member>
+        <member name="M:EmployeeManagement.API.Controllers.EmployeeController.#ctor(MediatR.IMediator,EmployeeManagement.API.Application.Queries.Employees.IEmployeeQuery)">
+            <summary>
+            Initialize
+            </summary>
+            <param name="mediator"></param>
+            <param name="employeeQuery"></param>
+        </member>
+        <member name="M:EmployeeManagement.API.Controllers.EmployeeController.GetAll">
+            <summary>
+            Get all employee details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.API.Controllers.EmployeeController.Create(EmployeeManagement.API.Application.Command.EmployeeUseCase.CreateEmployeeCommand)">
+            <summary>
+            Create employee
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.API.Controllers.EmployeeController.Update(EmployeeManagement.API.Application.Command.EmployeeUseCase.UpdateEmployeeCommand)">
+            <summary>
+            Update employee details
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeeManagement.API.Controllers.EmployeeController.Delete(EmployeeManagement.API.Application.Command.EmployeeUseCase.DeleteEmployeeCommand)">
+            <summary>
+            Delete employee details
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
