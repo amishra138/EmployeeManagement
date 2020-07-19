@@ -7,6 +7,8 @@ This is a sample application to use Entity Framework - In Memory DB. Below are t
 * Repository Pattern
 * Domain Driven Design
 
+=> Added Authorization, generate JWT token from IdentityService (https://github.com/amishra138/IdentityService) and pass it in Header as Bearer Token to access authorized resources.
+
 Note - To use this sample app, download or clone from the url and just build the solution. Run this application and you will see swagger doc.
 
 Suggestions are always welcome!
